@@ -1,0 +1,30 @@
+import { Navbar } from "@/layout/Navbar";
+import { Hero } from "@/sections/Hero";
+import { About } from "@/sections/About";
+import { Projects } from "@/sections/Projects";
+import { Blogs } from "@/sections/Blogs";
+import { Contact } from "@/sections/Contact";
+import { Footer } from "@/layout/Footer";
+import { Education } from "@/sections/Education";
+
+function App() {
+  return (
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Education />
+        <Projects />
+        {/* <Experience /> */}
+        {/* <Testimonials /> */}
+        
+        <Blogs />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
