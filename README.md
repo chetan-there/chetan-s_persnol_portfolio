@@ -1,16 +1,101 @@
-# React + Vite
+# 🚀 React Portfolio Contact App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern contact form built using **React + Vite** that allows users to send messages directly via email using **EmailJS** — no backend required.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+* 📩 Send emails directly from frontend (EmailJS)
+* ⚡ Fast development with Vite
+* 🎨 Clean and modern UI
+* 🔐 Environment variable support for security
+* ♻️ Form reset after submission
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* EmailJS
+* CSS / Tailwind (optional)
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in root:
+
+```
+VITE_SERVICE_ID=your_service_id
+VITE_TEMPLATE_ID=your_template_id
+VITE_PUBLIC_KEY=your_public_key
+```
+
+---
+
+## 📧 EmailJS Setup
+
+1. Create account on https://www.emailjs.com
+2. Add Email Service (Gmail recommended)
+3. Create Email Template
+4. Use variables:
+
+```
+{{name}}
+{{email}}
+{{message}}
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │    └── Contact.jsx
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🚀 Usage
+
+* Fill the contact form
+* Click send
+* Message will be delivered to your email
+
+---
+
+## 📌 Future Improvements
+
+* Add toast notifications
+* Add loading spinner
+* Add validation
+* Deploy on Vercel / Netlify
+
+---
+
+## 👨‍💻 Author
+
+Chetan There
+Aspiring Java Backend Developer | React Learner
+
+---
+
+## 📬 Note
+
+This email system works without a backend using EmailJS.
+Make sure not to expose sensitive keys in public repositories.
