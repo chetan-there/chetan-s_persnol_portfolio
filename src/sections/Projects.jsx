@@ -6,7 +6,7 @@ const projects = [
     title: "Library Management System",
     description:
       "A dynamic Library Management System to manage books, members, and issue/return workflows with an interactive admin dashboard for monitoring availability and due dates.",
-    image: "public/projects/lms.jpeg", // Add your project image here
+    image: "/projects/lms.jpeg", // Add your project image here
     tags: [
       "Java",
       "Servlets",
@@ -25,7 +25,7 @@ const projects = [
     title: "Student Management System (Spring Boot)",
     description:
       "A full-stack Student Management System with secure authentication and role-based access control, advanced CRUD with pagination, validation, exception handling, and student-course enrollment mapping.",
-    image: "public/projects/sms.jpeg", // Add your project image here
+    image: "/projects/sms.jpeg", // Add your project image here
     tags: [
       "Java",
       "Spring Boot",
@@ -43,7 +43,7 @@ const projects = [
     title: "E-Medical System",
     description:
       "A full-stack healthcare management system for managing patients, doctors, appointments, and prescriptions with secure authentication and user-friendly dashboards.",
-    image: "public/projects/ems.jpeg", // Add your project screenshot here
+    image: "/projects/ems.jpeg", // Add your project screenshot here
     tags: [
       "Java",
       "Servlets",
@@ -62,7 +62,7 @@ const projects = [
     title: "Streaming Website",
     description:
       "A responsive streaming website web app featuring curated media content, user navigation, and dynamic UI components.",
-    image: "public/projects/sw.jpeg", // Replace with your image
+    image: "/projects/sw.jpeg", // Replace with your image
     tags: [
       "HTML",
       "CSS",

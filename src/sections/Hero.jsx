@@ -128,7 +128,7 @@ export const Hero = () => {
 
               {/* Download CV Button */}
               <a
-                href="public/cv/Chetan_CV.pdf"       // PDF placed in public folder
+                href="/cv/Chetan_CV.pdf"       // PDF placed in public folder
                 download="Chetan_CV.pdf"    // File name when downloaded
                 className="inline-block"    // Ensure proper layout inside AnimatedBorderButton
               >
